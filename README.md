@@ -2,6 +2,8 @@
 
 面向吉林大学法学院本科生的免费学习资料共享网站。学生自发、非官方、非商业。纯 HTML / CSS / 原生 JavaScript，JSON 管理资料；无需构建、账号、数据库或运行时第三方服务。
 
+公开网站：[JLU Law Share](https://xue3434366599-lang.github.io/jlu_law_share/)。当前开放投稿，资料库尚无真实资源。
+
 ## 本地运行
 
 在项目目录运行 `python -m http.server 8000 --bind 127.0.0.1`，访问 http://127.0.0.1:8000 。不要用 file:// 打开，因为浏览器需要通过 HTTP fetch JSON。
@@ -54,7 +56,7 @@
 4. 在 Actions 中选择 Deploy GitHub Pages → Run workflow。工作流仅支持手动触发，避免推送即发布。
 5. 查看成功部署返回的网址，访问页面并验证 JSON、筛选、投稿邮箱及手机布局。项目仓库 Pages 子路径使用相对资源路径，无需修改代码。
 
-工作流只发布 index.html、css、js、data，不发布 tests、报告或开发依赖。GitHub Actions 在远端的执行尚需实际验证。
+工作流只发布 index.html、css、js、data，不发布 tests、报告或开发依赖。首次 GitHub Actions 部署和公开页面访问已于 2026-11-09 验证成功。后续更新须推送代码并手动运行此工作流。
 
 部署流程已对照 [GitHub Pages 官方工作流文档](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages) 核对。
 
