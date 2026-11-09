@@ -1,0 +1,6 @@
+[
+  {"id":"demo-001","demo":true,"title":"DEMO 民法课程PPT","grades":["2025","2024"],"course":"民法","teacher":"示例教师甲","classType":"普通班","type":"ppt","semester":"2026秋","description":"虚构样例，仅用于开发测试，不是可获取的资料。","author":"DEMO","url":"","status":"pending"},
+  {"id":"demo-002","demo":true,"title":"DEMO 民法期末试题回忆版","grades":["2025"],"course":"民法","teacher":"示例教师乙","classType":"实验班","type":"exam-recall","semester":"2026春","verification":"单人回忆","description":"虚构样例，债法题目回忆。","author":"","url":"","status":"pending"},
+  {"id":"demo-003","demo":true,"title":"DEMO 刑法课程PPT","grades":["2024"],"course":"刑法","teacher":"示例教师丙","classType":"通用","type":"ppt","semester":"2025秋","description":"虚构样例，共同犯罪。","author":"DEMO","url":"","status":"pending"},
+  {"id":"demo-004","demo":true,"title":"DEMO 法理学学习提纲","grades":["2026"],"course":"法理学","teacher":"示例教师丁","classType":"未知","type":"other","semester":"2026秋","description":"虚构样例，学习提纲。","author":"DEMO","url":"","status":"pending"}
+]
